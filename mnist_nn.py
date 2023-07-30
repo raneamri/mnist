@@ -8,9 +8,10 @@ DISPLAY_REG = 50
 IMG_SIZE = 784
 DATASET_PARTITION = 1_000
 TEST_PREDICTIONS = 5
+DATASET_FILE = "mnist_sample.csv"
 
 # read data in
-data = pd.read_csv("mnist_sample.csv")
+data = pd.read_csv(DATASET_FILE)
 # prepare data, collect its dimensions & shuffle
 data = np.array(data)
 rows, cols = data.shape
