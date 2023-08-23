@@ -3,11 +3,11 @@ import numpy as np
 import pandas as pd
 
 # constants
-ITERATIONS = 10_000
+ITERATIONS = 300
 DISPLAY_REG = 50
 IMG_SIZE = 784
 DATASET_PARTITION = 1_000
-TEST_PREDICTIONS = 5
+TEST_PREDICTIONS = 100
 DATASET_FILE = "mnist_sample.csv"
 
 # read data in
