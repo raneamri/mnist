@@ -53,4 +53,4 @@ After successful forward & backward propagation, the algorithm updates a hyperpa
 
 After that, the algorithm loops back to forward propagation.
 
-![Example](https://github.com/raneamri/mnist/img/example.png)
+![Example](https://github.com/raneamri/mnist/blob/master/img/example.png)
