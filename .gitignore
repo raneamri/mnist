@@ -1,3 +1,6 @@
 .DS_Store
 .vscode
-mnist_sample.csv
+sample.csv
+test.csv
+train.csv
+img
