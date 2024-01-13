@@ -15,7 +15,7 @@ This project is a 2 layer neural network that learns to recognise handwritten nu
 
 ## Settings
 The script includes a set of tweakable constants:
-* `Iterations`: How many iterations the neural network will loop.
+* `ITERATIONS`: How many iterations the neural network will loop.
 * `DISPLAY_REG`: How often the script will display the neural network's current accuracy.
 * `IMG_SIZE`: The number of pixels in the input image.
 * `DATASET_PARTITION`: Where the data should be parted for crossvalidation.
